@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import qr from 'qr-image';
-import fs from 'fs';
+import fs from 'fs';4
 
 inquirer
   .prompt([
@@ -26,6 +26,8 @@ inquirer
       // Something else went wrong
     }
   });
+
+
 
 
 
